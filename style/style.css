@@ -133,3 +133,100 @@ color: #0c0c0c;
    padding-top: 50px;
 }
 /* first section end */
+
+.appoinment{
+
+    width: 1320px;
+    height: 350px;
+    background-color: rgb(243, 235, 231);
+text-align: center;
+margin: 50px 300px;
+  border-radius: 16px;
+padding-top: 100px;
+}
+.color{
+color: #F00;
+}
+.place{
+
+    
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+
+
+}
+.join{
+    display: inline-flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px; 
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+    margin-top: 30px;
+
+}
+ .offers{
+display: flex;
+text-align: center;
+margin-left: 300px;
+
+
+}  
+ .offer-title{
+margin-top: 100px;
+display: block;
+gap: 100px;
+
+
+}
+.offer-head{
+
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.coming-soon{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+   font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+}
+.offer-description{
+    color: rgba(7, 2, 17, 0.60);
+     font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: left;
+  } 
+  .picture{
+row-gap: 40px;
+margin-top: 50px;
+
+
+border: 5px solid #F00;
+  }
+  .pictures{
+
+    width: 364.844px;
+    height: 364.844px;
+
+
+
+  }
