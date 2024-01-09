@@ -172,19 +172,19 @@ color: #F00;
 .join{
     display: inline-flex;
     padding: 14px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 10px; */
     border-radius: 8px; 
     background: #F00;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 20px;
    font-weight: 700;
-   text-transform: uppercase;
+   /* text-transform: uppercase; */
     margin-top: 30px;
-
+   border: none;
 }
  .offers{
 display: flex;
@@ -382,6 +382,29 @@ margin-bottom: 15px;
     line-height: 32px; 
     margin-bottom: 10px;
 }
+.label{
+/* position: relative; */
+
+}
+input[type="text"]{
+border: none;
+width: 400px;
+height: 50px;
+padding: 0 16px;
+border-top-left-radius: 50px;
+border-bottom-left-radius:50px ;
+}
+.click{
+/* position: absolute; */
+top: 0;
+right: 0;
+bottom: 0;
+background-color: #F00;
+padding: 16px 16px;
+border: none;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
 .footer-section{
 display: flex;
 background-color: black;
@@ -439,7 +462,7 @@ margin-left: 100px;
     font-weight: 500;
     line-height: 40px;
 }
-.btn-unsubscribtion{
+.btn-unsubscribing{
 margin-top: 300px;
 border: none;
 color: white;
